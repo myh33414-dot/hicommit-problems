@@ -9,7 +9,7 @@ printf ("%d CHAN",a);
 }
 else
  {
-printf ("%d LE "a);
+printf ("%d LE ",a);
 }
 return 0;
 }
