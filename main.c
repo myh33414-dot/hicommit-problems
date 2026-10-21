@@ -8,7 +8,7 @@ if (a<b&&b<c)
 {
     printf ("so lon nhat la %f",c);
 }
-if else ( a>b&&b>c)
+else if ( a>b&&b>c)
 {
     printf ("a %f la so lon nhat",a);
 }
