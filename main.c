@@ -28,7 +28,7 @@ int main()
     }
     else 
     {
-        printf ("hi");
+        printf ("0");
     }
 
     return 0;
