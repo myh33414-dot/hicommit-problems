@@ -7,11 +7,11 @@ int main()
   {
     printf ("LANH");
   }
-  else if (t<25&&t>15)
+  else if (t<25&&t>=15)
   {
     printf ("MAT");
   }
-  else if (t>25&&t<35)
+  else if (t>=25&&t<35)
   {
     printf ("NONG");
   }
