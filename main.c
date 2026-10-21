@@ -2,15 +2,14 @@
 int main() 
 {
 int a,b;
-printf ("hay cac so theo trinh tu a va b\n");
 scanf ("%d%d",&a,&b);
 if (a%2==0&&b%2!=0)
 {
-printf ("so CHAN la %d va so LE la %d",a,b);
+printf ("%d CHAN",a);
 }
 else
  {
-printf ("so CHAN la %d va so LE la %d",b,a);
+printf ("%d LE ",b);
 }
 return 0;
 }
