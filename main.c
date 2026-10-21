@@ -19,7 +19,7 @@ else if (a>6&&a<15)
 {
   printf ("25000");
 }
-else if (a>15)
+else
 {
   printf ("40000");
 }
