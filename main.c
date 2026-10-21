@@ -6,15 +6,15 @@ int main(void)
     scanf ("%f%f%f",&a,&b,&c);
 if (a<b&&b<c)
 {
-    printf ("so lon nhat la %f",c);
+    printf ("%f",c);
 }
 else if ( a>b&&b>c)
 {
-    printf ("a %f la so lon nhat",a);
+    printf ("%f",a);
 }
 else
 {
-    printf ("b %f la so lon nhat",b);
+    printf ("%f",b);
 }
 return 0;
 }
