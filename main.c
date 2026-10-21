@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main()
@@ -5,9 +6,9 @@ int main()
     int a, b;
     scanf("%d%d", &a, &b);
 
-    if (a>15)
+    if (a <= 0 || b <= 0)
     {
-        printf("40000");
+        printf("INVALID");
     }
     else if (b >= 500000 && a < 15)
     {
@@ -21,10 +22,14 @@ int main()
     {
         printf("25000");
     }
+    else if (a>15)
+    {
+        printf("40000");
+    }
     else 
     {
-    	printf ("INVAILD");
-	}
+        printf ("hi");
+    }
 
     return 0;
 }
