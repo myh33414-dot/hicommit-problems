@@ -18,7 +18,7 @@ int main()
     {
         printf("15000");
     }
-    else if (a < 15)
+    else if (a>=6 &&a<= 15)
     {
         printf("25000");
     }
