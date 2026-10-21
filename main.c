@@ -1,15 +1,15 @@
 #include <stdio.h>
-int main() 
+int main(void) 
 {
 int a;
 scanf ("%d",&a);
 if (a%2==0)
 {
-printf ("%d CHAN",a);
+printf ("CHAN");
 }
 else
  {
-printf ("%d LE ",a);
+printf ("LE");
 }
 return 0;
 }
