@@ -10,7 +10,7 @@ int main()
     {
         printf("INVALID");
     }
-    else if (b >= 500000 && a < 15)
+    else if (b >= 500000 && a <= 15)
     {
         printf("0");
     }
