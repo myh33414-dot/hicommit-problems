@@ -11,7 +11,7 @@ else if (b>=500000&&a<15)
 {
   printf ("0");
 }
-else if (a>1&&a<5)
+else if (a>=1&&a<=5)
 {
   printf ("15000");
 }
