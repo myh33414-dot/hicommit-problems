@@ -9,7 +9,7 @@ if (c>b&&c>a)
 {
     printf ("%d",c);
 }
-else if ( b>c&&c>a)
+else if ( b>c&&b>a&&c=b)
 {
     printf ("%d",b);
 }
