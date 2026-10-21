@@ -22,14 +22,8 @@ int main()
     {
         printf("25000");
     }
-    else if (a>15)
-    {
-        printf("40000");
-    }
     else 
     {
-        printf ("0");
-    }
-
+        printf("40000")
     return 0;
 }
