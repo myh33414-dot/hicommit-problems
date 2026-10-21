@@ -21,10 +21,6 @@ int main()
     {
         printf("25000");
     }
-    if (a>15)
-    {
-        printf("40000");
-    }
     else 
     {
     	printf ("INVAILD");
