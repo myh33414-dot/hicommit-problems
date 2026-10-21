@@ -1,20 +1,19 @@
 #include <stdio.h>
 int main(void) 
 {
-    float a,b,c;
-    printf (" nhap 3 so ramdom vao\n");
-    scanf ("%f%f%f",&a,&b,&c);
+    int a,b,c;
+    scanf ("&d&d&d",&a,&b,&c);
 if (a<b&&b<c)
 {
-    printf ("%f",c);
+    printf ("%d",c);
 }
 else if ( a>b&&b>c)
 {
-    printf ("%f",a);
+    printf ("%d",a);
 }
 else
 {
-    printf ("%f",b);
+    printf ("%d",b);
 }
 return 0;
 }
