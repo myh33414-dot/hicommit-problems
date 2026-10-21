@@ -9,15 +9,15 @@ printf ("LANH");
 }
 else if (t<25&&t>15)
 {
-printf ("MAT")
+printf ("MAT");
 }
 else if (t>25&&t<35)
 {
-printf ("NONG")
+printf ("NONG");
 }
 else 
 {
-printf ("RAT_NONG")
+printf ("RAT_NONG");
 }
 return 0;
 }
