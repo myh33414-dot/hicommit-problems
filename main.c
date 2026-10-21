@@ -24,7 +24,7 @@ int main()
     }
     else 
     {
-        printf("40000")
+        printf("40000");
     }
     return 0;
 }
