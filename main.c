@@ -32,7 +32,7 @@ if (80<=DRL)
 {
 printf ("HOC_BONG_GIOI");
 }
-else if (70<DRL)
+else if (70<=DRL)
 {
 printf("HOC_BONG_KHA");
 }
@@ -54,7 +54,7 @@ printf("KHONG_DAT");
   }
 else
 {
-printf("HOC_BONG_KHA");
+printf("KHONG_DAT");
 }
   return 0;
 }
