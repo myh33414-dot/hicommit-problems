@@ -28,8 +28,8 @@ if (DRL>=90)
 {
 printf ("HOC_BONG_GIOI");
 }
-if (DRL<70
-    {
+if (DRL<70)
+{
 printf("HOC_BONG_KHA");
 }
 }
