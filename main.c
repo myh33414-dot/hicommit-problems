@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() 
 {
-float e;
-int z;
+float e,DTB;
+int z,DRL;
 scanf ("%f%d",&e,&z);
 DTB=e;
 DRL=z;
