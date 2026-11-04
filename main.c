@@ -10,7 +10,7 @@ if (DTB>=9.0&&DRL>=90)
 {
 printf ("HOC_BONG_XUAT_SAC");
 }
-else if (8.0<=DTB<9.0||80<=DRL<90)
+else if (8.0<=DTB<9.0&&80<=DRL<90)
 {
 printf ("HOC_BONG_GIOI");
 }
@@ -18,7 +18,7 @@ else if (7.0<=DTB<8.0||70<=DRL,80)
 {
 printf ("HOC_BONG_KHA");
 }
-else if (DTB<7.0||DRL<70)
+else if (7.0>DTB||DRL)
 {
 printf ("KHONG_DAT");
 }
