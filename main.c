@@ -54,7 +54,7 @@ printf("KHONG_DAT");
   }
 else
 {
-printf("KHONG_DAT");
+printf("HOC_BONG_KHA");
 }
   return 0;
 }
