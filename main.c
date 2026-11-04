@@ -4,7 +4,7 @@ int main()
 {
 int i;
 scanf("%d",i);
-switch (kq)
+switch (i)
 {
   case 1:
     {
