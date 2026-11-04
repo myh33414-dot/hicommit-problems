@@ -13,11 +13,11 @@ if (DRL>=90)
 printf ("HOC_BONG_XUAT_SAC");
 }
 
-if (80<=DRL<90)
+else if (80<=DRL<90)
 {
 printf ("HOC_BONG_GIOI");
 }
-if (DRL<70)
+else if (DRL<70)
 {
 printf("HOC_BONG_KHA");
 }
@@ -28,7 +28,7 @@ if (DRL>=90)
 {
 printf ("HOC_BONG_GIOI");
 }
-if (DRL<70)
+else if (DRL<70)
 {
 printf("HOC_BONG_KHA");
 }
