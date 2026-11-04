@@ -6,38 +6,51 @@ int z,DRL;
 scanf ("%f%d",&e,&z);
 DTB=e;
 DRL=z;
-if (DTB>=9.0)
+if (9.0<=DTB)
 {
-if (DRL>=90)
+if (90<=DRL)
 {
 printf ("HOC_BONG_XUAT_SAC");
 }
 
-else if (80<=DRL<90)
+else if (80<=DRL)
 {
 printf ("HOC_BONG_GIOI");
 }
-else if (DRL<70)
+else if (70<=DRL)
 {
 printf("HOC_BONG_KHA");
-}
-}
-if (8.0<=DTB<9.0)
-{
-if (DRL>=90)
-{
-printf ("HOC_BONG_GIOI");
-}
-else if (DRL<70)
-{
-printf("HOC_BONG_KHA");
-}
-}
-if (7.0<=DTB<8.0)
-{
-printf ("HOC_BONG_KHA");
 }
 else 
+{
+printf ("KHONG_DAT");
+}
+  }
+else if (8.0<=DTB)
+{
+if (80<=DRL)
+{
+printf ("HOC_BONG_GIOI");
+}
+else if (70<DRL)
+{
+printf("HOC_BONG_KHA");
+}
+else {
+printf ("KHONG_DAT");
+}
+}
+else if (7.0<=DTB)
+{
+if (70<=DRL)
+{
+printf("HOC_BONG_KHA");
+}
+else 
+{
+printf("KHONG_DAT");
+}
+else
 {
 printf("KHONG_DAT");
 }
