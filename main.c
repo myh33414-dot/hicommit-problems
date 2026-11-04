@@ -3,8 +3,10 @@
 int main() 
 {
 int i;
+int kq;
 scanf("%d",i);
-switch (i)
+kq =i;
+switch (kq)
 {
   case 1:
     {
