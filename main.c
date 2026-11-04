@@ -18,6 +18,10 @@ else if (7.0<=DTB<8.0&&DRL>70||8.0<=DTB<10&&70<=DRL<80)
 {
 printf ("HOC_BONG_KHA");
 }
+else 
+{
+printf ("KHONG_DAT");
+}
 
 
 
