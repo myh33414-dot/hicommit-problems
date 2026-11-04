@@ -3,7 +3,7 @@
 int main() 
 {
 int kq;
-scanf ("%d",&kq;
+scanf ("%d",&kq);
 switch (kq)
 {
   case 1:
