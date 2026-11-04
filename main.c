@@ -2,7 +2,8 @@
 
 int main() 
 {
-int kq = 1;
+int kq;
+scanf ("%d",&kq;
 switch (kq)
 {
   case 1:
