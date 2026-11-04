@@ -6,29 +6,25 @@ int i;
 scanf("%d",i);
 switch (kq)
 {
-  case 1 (i=1)
+  case 1:
     {
-    printf("XEP_LOAI_XUAT_SAC");break
+    printf("XEP_LOAI_XUAT_SAC");break;
     }
-  case 2 (i=2)
+  case 2:
     {
-    printf("XEP_LOAI_GIOI");
-    break
+    printf("XEP_LOAI_GIOI");break;
     }
-  case 3 (i=3)
+  case 3:
     {
-    printf("XEP_LOAI_KHA");
-    break
+    printf("XEP_LOAI_KHA");break;
     }
-  case 4 (i=4)
+  case 4:
     {
-    printf("XEP_LOAI_TRUNG_BINH");
-    break
+    printf("XEP_LOAI_TRUNG_BINH");break;
     }
-  case 5 (i>5
+  case 5:
     {
     printf("KHONG_HOP_LE");
-    break
     }
 }
 return 0;
