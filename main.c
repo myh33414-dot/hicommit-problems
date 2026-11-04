@@ -22,7 +22,7 @@ switch (kq)
     {
     printf("XEP_LOAI_TRUNG_BINH");break;
     }
-  case 5:
+  case kq>5:
     {
     printf("KHONG_HOP_LE");
     }
