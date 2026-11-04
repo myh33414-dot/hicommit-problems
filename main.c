@@ -22,30 +22,12 @@ switch (kq)
     {
     printf("XEP_LOAI_TRUNG_BINH");break;
     }
-  case 5:
+  case 5: case 6: case 7: case 8: case 9: case 10:
     {
     printf("KHONG_HOP_LE");break;
     }
-  case 6:
-    {
-    printf("KHONG_HOP_LE");break;
-    }
-  case 7:
-    {
-    printf("KHONG_HOP_LE");break;
-    }
-  case 8:
-    {
-    printf("KHONG_HOP_LE");break;
-    }
-  case 9:
-    {
-    printf("KHONG_HOP_LE");break;
-    }
-  case 10:
-    {
-    printf("KHONG_HOP_LE");
-    }
+  default:
+    printf ("KHONG_HOP_LE");
 }
 return 0;
 }
