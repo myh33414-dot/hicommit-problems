@@ -2,10 +2,7 @@
 
 int main() 
 {
-int i;
-int kq;
-scanf("%d",i);
-kq =i;
+int kq = 1;
 switch (kq)
 {
   case 1:
